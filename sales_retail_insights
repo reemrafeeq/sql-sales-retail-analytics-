@@ -1,0 +1,79 @@
+# Sales Analytics – Business Insights Report
+
+## 1. Project Overview
+
+This project analyzes sales data using PostgreSQL to understand business performance, customer purchasing behavior, product performance, and revenue trends.
+
+The analysis uses three tables:
+- `dim_customer` – Customer information
+- `dim_product` – Product information
+- `fact_sales` – Sales transaction details
+
+## 2. Key Business Insights
+
+### Insight 1: Product Revenue Performance
+Product-level revenue analysis helps identify which products generate the highest revenue.
+
+**Business Value:** The company can focus on high-revenue products, improve their availability, and develop better product strategies.
+
+### Insight 2: Customer Spending Behavior
+Customer spending analysis identifies high-value customers based on their total purchase amount.
+
+**Business Value:** The company can introduce loyalty programs, special discounts, and personalized offers to retain valuable customers.
+
+### Insight 3: City-wise Sales Performance
+Revenue analysis by city helps identify locations that contribute the most to overall sales.
+
+**Business Value:** The company can focus marketing campaigns and business expansion on high-performing cities.
+
+### Insight 4: Category-wise Revenue
+Category analysis shows how much revenue each product category generates.
+
+**Business Value:** The company can identify profitable categories and improve sales strategies for categories with lower revenue.
+
+### Insight 5: Monthly Revenue Trends
+Monthly revenue analysis helps understand how sales performance changes over time.
+
+**Business Value:** The company can identify high-performing and low-performing months and plan promotions accordingly.
+
+### Insight 6: Customer Purchase Frequency
+Purchase frequency analysis identifies customers who make repeated purchases.
+
+**Business Value:** The company can improve customer retention through loyalty programs and targeted marketing.
+
+### Insight 7: Best-selling Products
+Ranking products by quantity sold helps identify the most popular products in each category.
+
+**Business Value:** The company can maintain sufficient stock of popular products and avoid inventory shortages.
+
+### Insight 8: Daily Revenue Performance
+Daily revenue analysis helps track sales performance on a day-to-day basis.
+
+**Business Value:** The company can identify sales fluctuations and understand daily business performance.
+
+### Insight 9: Category Revenue Contribution
+Percentage-based analysis shows each category's contribution to total revenue.
+
+**Business Value:** Management can understand which categories contribute most to overall business revenue.
+
+### Insight 10: Average Customer Purchase Value
+Average spending per purchase helps measure how much customers spend on average.
+
+**Business Value:** The company can develop strategies to increase average purchase value through product recommendations and promotional offers.
+
+## 3. Recommendations
+
+1. Focus on products that generate higher revenue.
+2. Introduce loyalty programs for repeat customers.
+3. Improve marketing in cities with lower sales.
+4. Monitor monthly revenue to identify sales trends.
+5. Maintain sufficient inventory for best-selling products.
+6. Develop promotional strategies for low-performing categories.
+
+## 4. Conclusion
+
+This project demonstrates how PostgreSQL can be used to transform raw sales data into meaningful business insights.
+
+Using SQL joins, aggregate functions, CTEs, window functions, ranking functions, and materialized views, the analysis identifies important sales patterns and customer behaviors.
+
+These insights can help businesses make better decisions, improve sales performance, and develop effective marketing strategies.
